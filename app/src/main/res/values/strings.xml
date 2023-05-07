@@ -22,6 +22,7 @@
     <string name="kijelentkezes">Kijelentkezes</string>
     <string name="beallitasok">Beallitasok</string>
     <string name="megtekintes">Megtekintes</string>
+    <string name="animate_me">Animate Me</string>
     <string-array name="phone_modes">
         <item>Otthoni</item>
         <item>Munkahelyi</item>
