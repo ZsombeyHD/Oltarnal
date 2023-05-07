@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Oltarnal</string>
+    <string name="felhasznalonev">Felhasznalonev</string>
+    <string name="jelszo">Jelszo</string>
+    <string name="bejelentkezes">Bejelentkezes</string>
+    <string name="regisztracio">Regisztracio</string>
+    <string name="email">E-mail</string>
+    <string name="jelszo_ujra">Jelszo ujra</string>
+    <string name="megsem">Megsem</string>
+    <string name="telefonszam">Telefonszam</string>
+    <string name="postai_cim">Postai cim</string>
+    <string name="berlo">Berlo</string>
+    <string name="vasarlo">Vasarlo</string>
+    <string name="termek_leiras">Termek leiras</string>
+    <string name="bejelentkezes_vendegkent">Bejelentkezes vendegkent</string>
+    <string name="bejelentkezes_google_fiokkal">Bejelentkezes Google fiokkal</string>
+    <string name="leiras">Leiras</string>
+    <string name="ar">Ar</string>
+    <string name="vasarlas">Vasarlas</string>
+    <string name="kereses">Kereses</string>
+    <string name="kocsi">Kocsi</string>
+    <string name="kijelentkezes">Kijelentkezes</string>
+    <string name="beallitasok">Beallitasok</string>
+    <string name="megtekintes">Megtekintes</string>
+    <string-array name="phone_modes">
+        <item>Otthoni</item>
+        <item>Munkahelyi</item>
+        <item>Mobil</item>
+        <item>Egyéb</item>
+    </string-array>
+
+    <string-array name="decoration_names">
+        <item>Váza</item>
+        <item>Terítő</item>
+        <item>Asztali futó</item>
+        <item>Székszoknya</item>
+        <item>Masni</item>
+        <item>Virágfal</item>
+        <item>Pénzes doboz</item>
+        <item>Virágcsokor</item>
+        <item>Vendégkönyv</item>
+        <item>Úszógyertyaszett</item>
+    </string-array>
+
+    <string-array name="decoration_desc">
+        <item>Virágok összefogására szolgáló eszköz.</item>
+        <item>Asztalok leterítésére szolgáló eszköz.</item>
+        <item>Szebb, mint egy terítő!</item>
+        <item>A szebb és kifinomultabb székek miatt.</item>
+        <item>Mindenhova tehető.</item>
+        <item>Népszerű és hasznos fotókellék.</item>
+        <item>Sokba került az esküvő, ne legyél már iligy!</item>
+        <item>Virág nélkül nincs esküvő, illatos és szép is.</item>
+        <item>Amibe elmondhatja a vendég a véleményét.</item>
+        <item>Tökéletes dekoráció bárhova.</item>
+    </string-array>
+
+    <array name="decoration_images">
+        <item>@drawable/vase</item>
+        <item>@drawable/terito</item>
+        <item>@drawable/asztali_futo</item>
+        <item>@drawable/szekszoknya</item>
+        <item>@drawable/masni</item>
+        <item>@drawable/viragfal</item>
+        <item>@drawable/penzes_doboz</item>
+        <item>@drawable/flowerinho</item>
+        <item>@drawable/eskuvoi_vendegkonyv</item>
+        <item>@drawable/uszogyertya</item>
+    </array>
+
+    <string-array name="decoration_prices">
+        <item>3.499 HUF</item>
+        <item>4.999 HUF</item>
+        <item>4.499 HUF</item>
+        <item>1.999 HUF</item>
+        <item>499 HUF</item>
+        <item>24.999 HUF</item>
+        <item>3.999 HUF</item>
+        <item>5.999 HUF</item>
+        <item>3.499 HUF</item>
+        <item>2.499 HUF</item>
+    </string-array>
+
+
+</resources>
