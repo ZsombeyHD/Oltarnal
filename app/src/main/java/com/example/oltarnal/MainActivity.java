@@ -108,18 +108,20 @@ public class MainActivity extends AppCompatActivity {
 
         // Log.i(LOG_TAG, "Bejelentkezett : " + userName + ", jelszo : " + password);
 
-        mAuth.signInWithEmailAndPassword(userName, password).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
-            @Override
-            public void onComplete(@NonNull Task<AuthResult> task) {
-                if (task.isSuccessful()) {
-                    Log.d(LOG_TAG, "Sikeres felhasznaloi belepes!");
-                    startShopping();
-                } else {
-                    Log.d(LOG_TAG, "Sikertelen felhasznaloi belepes!");
-                    Toast.makeText(MainActivity.this, "Sikertelen felhasznaloi belepes! : " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+        if (userName.length()!=0){
+            mAuth.signInWithEmailAndPassword(userName, password).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                @Override
+                public void onComplete(@NonNull Task<AuthResult> task) {
+                    if (task.isSuccessful()) {
+                        Log.d(LOG_TAG, "Sikeres felhasznaloi belepes!");
+                        startShopping();
+                    } else {
+                        Log.d(LOG_TAG, "Sikertelen felhasznaloi belepes!");
+                        Toast.makeText(MainActivity.this, "Sikertelen felhasznaloi belepes! : " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                    }
                 }
-            }
-        });
+            });
+        }
     }
 
     private void startShopping() {
