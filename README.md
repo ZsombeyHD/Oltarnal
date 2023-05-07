@@ -18,6 +18,7 @@ Kérlek adj rá a minimumpontot, nagyjából annyi követelményt fed le. :(
 - **"CRUD műveletek -** 0 pont
 - **"Legalább 2 komplex Firestore lekérdezés -** 0 pont
 - **"Szubjektív pontozás a projekt egészére vonatkozólag -** 5 pont lehet max, rajtad áll, de ha a minimumponton múlik, megköszönöm nagyon!
+
 Összesen ~ 20 pont
 
 - Készítő : Wenner-Várkonyi Zsombor
